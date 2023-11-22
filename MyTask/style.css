@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-container{
+    background-image: url("https://cdn.pixabay.com/photo/2022/10/04/11/01/office-work-7497952_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.main-heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    letter-spacing: 4px;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: normal;
+    padding: 20px;
+}
+
+.bg-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(160, 146, 146);
+    margin-bottom: 15px;
+}
+
+.gender-heading{
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    height: 40%;
+    width: 650px;
+    background-color: rgb(227, 231, 233);
+    padding: 20px;
+    box-shadow: 0 0 5px 0px #eae5e5;
+    opacity: 0.9;
+}
+
+/*@media screen and(max-width:499px){
+    .form-container{
+        height: 40%;
+        width: 40%;
+    }
+
+    .input-box{
+        height: 25%;
+        width: 40%px;
+    }
+}*/
+
+
+
+.input-box {
+    height: 28px;
+    width: 220px;
+    padding: 10px; 
+    border-color: lightgray;
+    border-width: 0px;
+    border-radius: 2px;
+}
+
+.input-container{
+    margin-bottom: 10px;
+}
+
+.section-2{
+    padding: 10px;
+}
+
+.drop-down-container {
+    margin-top: 29px;
+}
+
+.drop-down {
+    height: 29px;
+    width: 220px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-color: lightgray;
+    border-width: 0px;
+    border-radius: 2px;
+    font-size: 9px;
+    
+}
+
+label {
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+    width: 150px;
+    border-radius: 2px;
+    border-width: 0;
+    padding: 10px;
+    margin-top: 25px;
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    font-family:  sans-serif;
+    outline: none;
+}
+
+.hr{
+    display: inline-block;
+    margin-top: 20px;
+    width: 90px;
+    border-width: 2px;
+    background-color: blueviolet;
+}
+.input-resume {
+    margin-top: 10px;
+}
+
+.drag-box {
+    height: 50px;
+    width: 170px;
+    border-style: dashed;
+    border-color: blueviolet;
+    margin-top: 10px;
+    color: blueviolet;
+}
+
+.Interest-container{
+    margin-top: 10px;
+}
+.Interest-heading{
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.error-msg {
+    font-family: "Roboto";
+    font-size: 10px;
+    color: #dc3545;
+}
+
+.success-text{
+    font-family: "Roboto";
+    font-size: 12px;
+    margin-top: 8px;
+    color: #dc3545;
+}

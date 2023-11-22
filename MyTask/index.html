@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="bg-container" id="bgContainer">
+        <h1 class="main-heading">APPLICATION FORM</h1>
+    <div class="bg-form">
+       <form class="form-container" id="form">
+        <div class="your-detail-section-1">
+          <h1 class="heading">YOUR DETAILS:</h1>
+          <div class="input-container">
+             <label for="fname">First Name:</label></br>
+             <input type="text" id="fname" class="input-box" placeholder="First Name"/>
+             <p id="fnameErrorMsg" class="error-msg"></p>
+          </div>
+          <div class="input-container">
+            <label for="lname">LastName:</label></br>
+            <input type="text" id="lname" class="input-box" placeholder="Last Name"/>
+            <p id="lnameErrorMsg" class="error-msg"></p>
+         </div>
+         <div class="input-container">
+            <label  for="email">Email Id:</label></br>
+            <input type="email" id="email" class="input-box" placeholder="Email"/>
+            <p id="mailErrorMsg" class="error-msg"></p>
+         </div>
+         <div class="input-container">
+            <label  for="userDob">DOB:</label></br>
+            <input type="date" id="userDob" class="input-box" />
+            <p id="DateErrorMsg" class="error-msg"></p>
+         </div>
+         <div class="input-container">
+            <label  for="phoneNum">Phone Number:</label></br>
+            <input type="number" id="phoneNum" class="input-box" placeholder="Phone Number"/>
+            <p id="numberErrorMsg" class="error-msg"></p>
+         </div>
+         <div class="input-container">
+            <h4 class="gender-heading">Gender:</h4>
+            <input type="radio" id="male" value="male" name="radio" checked/>
+            <label  for="male">Male</label>
+            <input type="radio" id="female" value="female" name="radio"/>
+            <label for="female">Female</label>
+         </div>
+         <button type="submit" class="submit-button">Submit Application</button>
+         <p id="successTxt" class="success-text"></p>
+         </div>
+         <div class="your-detail-section-2">
+            <div class="drop-down-container">
+            <label>Qualifications:</label></br>
+            <select class="drop-down" id="dropDown">
+                <option value="BE">BE</option>
+                <option value="B.Tech" selected>B.Tech</option>
+                <option value="MCA">MCA</option>
+                <options value="BCA">BCA</options>
+            </select>
+            <div>
+                <label for="textarea">Address:</label></br>
+                <textarea rows="5" cols="30"></textarea>
+            </div>
+            <div class="Interest-container">
+                <h4 class="Interest-heading">Interest:</h4>
+                <input style="margin-left: 5px;" type="checkbox" id="checkbox"/>
+                <label for="checkbox">UI</label>
+                <input style="margin-left: 5px;" type="checkbox" id="checkbox"/>
+                <label for="checkbox">API</label>
+                <input style="margin-left: 5px;" type="checkbox" id="checkbox"/>
+                <label for="checkbox">DI</label>
+            <div style="margin-top: 20px;">
+            <label  for="file">Resume:</label></br>
+            <input type="file"/ id="file" class="input-resume"></br>
+            <span><hr class="hr"> or <hr class="hr"></span></br>
+            <button class="drag-box">Drag and drop files here</button>
+            <p id="fileErrorMsg" class="error-msg"></p>
+            </div>
+            </div>
+         </div>
+       </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
